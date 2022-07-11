@@ -9,6 +9,8 @@
   --secondary-bgc: #2f303a;
   --button-bgc-focus: #188ce8;
   --button-bgc: #f5f4fa;
+  --border-color: #EEEEEE;
+  --header-border-color: #ECECEC; 
 }
 
 body {
@@ -42,6 +44,9 @@ a {
 
 /* index.html */
 /* Header */
+.header {
+  border: 1px solid var(--header-border-color);
+}
 
 .header-logo {
   color: var(--header-logo-text);
@@ -213,6 +218,12 @@ a {
 .portfolio-button:hover {
   color: var(--hero-color-text);
   background-color: var(--accent-color);
+}
+
+.portfolio-list {
+  width: 370px;
+  height: 404px;
+  border: 1px solid var(--border-color);
 }
 
 .portfolio-title {
