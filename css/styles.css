@@ -14,18 +14,18 @@
 }
 
 body {
-  color: var(--primary-color-text);
-  background-color: var(--primary-bgc);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  color: var(--primary-color-text);
+  background-color: var(--primary-bgc);
 }
 
-li {
+.list {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
@@ -49,11 +49,11 @@ a {
 }
 
 .header-logo {
-  color: var(--header-logo-text);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  color: var(--header-logo-text);
 }
 
 .logo-text {
@@ -68,10 +68,10 @@ a {
 }
 
 .header-link {
-  color: var(--primary-color-text);
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  color: var(--primary-color-text);
 }
 
 .nav-link:focus,
@@ -94,18 +94,16 @@ a {
 }
 
 .hero-title {
-  color: var(--hero-color-text);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--hero-color-text);
 }
 
 .hero-button {
-  color: var(--hero-color-text);
-  background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -113,6 +111,8 @@ a {
   letter-spacing: 0.06em;
   border-radius: 4px;
   border: none;
+  color: var(--hero-color-text);
+  background-color: var(--accent-color);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -122,10 +122,10 @@ a {
 /* section features */
 
 .features-title {
-  color: var(--secondary-color-text);
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
+  color: var(--secondary-color-text);
 }
 
 .features-text {
@@ -135,11 +135,11 @@ a {
 /* section works */
 
 .works-title {
-  color: var(--secondary-color-text);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+  color: var(--secondary-color-text);
 }
 
 /* section team */
@@ -148,25 +148,25 @@ a {
 }
 
 .team-title {
-  color: var(--secondary-color-text);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+  color: var(--secondary-color-text);
 }
 
-.team-list {
-  background-color: var(--primary-bgc);
+.team-item {
   width: 270px;
   height: 368px;
+  background-color: var(--primary-bgc);
 }
 
 .card-title {
-  color: var(--secondary-color-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  color: var(--secondary-color-text);
 }
 
 .card-text {
@@ -182,61 +182,59 @@ a {
 }
 
 .footer-logo {
-  color: var(--hero-color-text);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  color: var(--hero-color-text);
 }
 
 .address-link {
-  color: var(--hero-color-text);
   font-style: normal;
   line-height: 1.7;
+  color: var(--hero-color-text);
 }
 
 .footer-link {
-  color: var(--footer-text);
   font-style: normal;
   line-height: 1.7;
+  color: var(--footer-text);
 }
 
 /* portfolio.html */
 
-.portfolio-button {
-  color: var(--secondary-color-text);
-  background-color: var(--button-bgc);
+.portfolio-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   border-radius: 4px;
   border: none;
+  color: var(--secondary-color-text);
+  background-color: var(--button-bgc);
 }
 
-.portfolio-button:focus,
-.portfolio-button:hover {
+.portfolio-btn:focus,
+.portfolio-btn:hover {
   color: var(--hero-color-text);
   background-color: var(--accent-color);
 }
 
-.portfolio-list {
-  width: 370px;
-  height: 404px;
+.portfolio-item {
   border: 1px solid var(--border-color);
 }
 
 .portfolio-title {
-  color: var(--secondary-color-text);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--secondary-color-text);
 }
 
 .portfolio-text {
-  color: var(--primary-color-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
+  color: var(--primary-color-text);
 }
