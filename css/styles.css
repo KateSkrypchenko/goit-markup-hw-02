@@ -9,8 +9,8 @@
   --secondary-bgc: #2f303a;
   --button-bgc-focus: #188ce8;
   --button-bgc: #f5f4fa;
-  --border-color: #EEEEEE;
-  --header-border-color: #ECECEC; 
+  --border-color: #eeeeee;
+  --header-border-color: #ececec;
 }
 
 body {
@@ -29,21 +29,10 @@ body {
   text-decoration: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+/* ---------------------------index---------------- */
 
-/* index.html */
-/* Header */
+/* ---------------------------Header----------------*/
+
 .header {
   border: 1px solid var(--header-border-color);
 }
@@ -86,8 +75,9 @@ body {
   color: var(--accent-color);
 }
 
-/* main */
-/* section hero */
+/* --------------------------main-------------------- */
+
+/* ----------------------section hero----------------- */
 
 .hero {
   background-color: var(--secondary-bgc);
@@ -119,7 +109,20 @@ body {
   background-color: var(--button-bgc-focus);
 }
 
-/* section features */
+/* --------------------section features ------------------*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .features-title {
   font-weight: 700;
@@ -132,7 +135,7 @@ body {
   line-height: 1.7;
 }
 
-/* section works */
+/* -------------------------section works------------------ */
 
 .works-title {
   font-weight: 700;
@@ -142,7 +145,7 @@ body {
   color: var(--secondary-color-text);
 }
 
-/* section team */
+/* -------------------------section team-------------------- */
 .team {
   background-color: #f5f4fa;
 }
@@ -157,7 +160,6 @@ body {
 
 .team-item {
   width: 270px;
-  height: 368px;
   background-color: var(--primary-bgc);
 }
 
@@ -175,7 +177,7 @@ body {
   text-align: center;
 }
 
-/* Footer */
+/*------------------------------Footer---------------------*/
 
 .footer {
   background-color: var(--secondary-bgc);
@@ -201,7 +203,9 @@ body {
   color: var(--footer-text);
 }
 
-/* portfolio.html */
+/* --------------------portfolio.html------------------ */
+
+/* --------------------section portfolio------------- */
 
 .portfolio-btn {
   font-family: inherit;
