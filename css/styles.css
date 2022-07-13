@@ -125,7 +125,7 @@ body {
 }
 
 .features-title {
-  font-weight: 700;
+  /* font-weight: 700; по-умолчанию браузера */
   line-height: 1.1;
   text-transform: uppercase;
   color: var(--secondary-color-text);
@@ -138,7 +138,7 @@ body {
 /* -------------------------section works------------------ */
 
 .works-title {
-  font-weight: 700;
+  /* font-weight: 700; по-умолчанию браузера */
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -151,7 +151,7 @@ body {
 }
 
 .team-title {
-  font-weight: 700;
+  /* font-weight: 700; по-умолчанию браузера */
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -191,14 +191,16 @@ body {
   color: var(--hero-color-text);
 }
 
-.address-link {
+.address {
   font-style: normal;
+}
+
+.address-link {
   line-height: 1.7;
   color: var(--hero-color-text);
 }
 
 .footer-link {
-  font-style: normal;
   line-height: 1.7;
   color: var(--footer-text);
 }
@@ -229,7 +231,7 @@ body {
 }
 
 .portfolio-title {
-  font-weight: 700;
+  /* font-weight: 700; по-умолчанию браузера */
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
